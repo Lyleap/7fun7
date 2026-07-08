@@ -1,0 +1,13 @@
+{
+  "username": "tty",
+  "password": "aaaa9999",
+  "balance": 0,
+  "spinsLeft": 5,
+  "lastSpinDate": "2026-01-24",
+  "history": [],
+  "predictions": [],
+  "exchanges": [],
+  "isBlacklisted": false,
+  "payoutRate": 1.0,
+  "dailyFootballLimit": 3
+}

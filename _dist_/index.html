@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Swipe App</title>
+    <link rel="stylesheet" href="/index-DP2BBKLY.css" id="playcode-styles"><style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: #000;
+      }
+      .snap-container {
+        scroll-snap-type: x mandatory;
+        display: flex;
+        overflow-x: auto;
+        height: 100vh;
+        width: 100vw;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+      .snap-container::-webkit-scrollbar {
+        display: none;
+      }
+      .snap-section {
+        scroll-snap-align: start;
+        flex: 0 0 100vw;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
+      .section-bg {
+        position: absolute;
+        inset: -10px; /* Extra margin to prevent white edges when blurred */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(4px); /* 10% blur effect */
+        z-index: 0;
+      }
+      .section-content {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/_libs_/zfs.js" id="playcode-zfs-script"></script><script src="/_deps_/deps-FGG7SMS3.js" id="playcode-deps-script"></script><script src="/index-IR255CGP.js" id="playcode-script"></script>
+  </body>
+</html>

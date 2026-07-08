@@ -1,0 +1,53 @@
+{
+
+  "slotOdds": {
+
+        "0": {
+            "start": 0,
+            "end": 0,
+            "chance": 20
+        },
+
+        "1_8": {
+            "start": 1,
+            "end": 8,
+            "chance": 33
+        },
+
+        "9_15": {
+            "start": 9,
+            "end": 15,
+            "chance": 20
+        },
+
+        "16_25": {
+            "start": 16,
+            "end": 25,
+            "chance": 14
+        },
+
+        "26_30": {
+            "start": 26,
+            "end": 30,
+            "chance": 8
+        },
+
+        "31_45": {
+            "start": 31,
+            "end": 45,
+            "chance": 4
+        },
+
+        "46_75": {
+            "start": 46,
+            "end": 75,
+            "chance": 2
+        }
+    },
+  "dailySpinLimit": 5,
+  "dailyFootballLimit": 5,
+  "defaultBetAmount": 10,
+  "exchangeRate": 100,
+  "odd_Deduct_percent":75
+  
+}
